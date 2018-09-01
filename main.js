@@ -23,7 +23,7 @@ function coloring(){
   }
 
 
-  $('.column').on('mouseover', function() {
+  $('.column').on('click', function() {
       $(this).removeClass('blue');
       $(this).removeClass('yellow');
       $(this).removeClass('green');

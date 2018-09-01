@@ -11,19 +11,18 @@ div,
     margin-bottom: 0;
     margin-left:0;
     padding: 0;
+    font-size: 1.4vw;
  }
 .instruction-panel {
     width:90vw;
     height:10vh;
     background-color:black;
-    display: -webkit-flex; /* Safari */
     display: flex;
     margin:auto;
 border: 2px solid #00000f;
 border-radius: 5px;
 margin-bottom:5px;
 color: grey;
-font-size: 2vw;
 justify-content: center;
 align-items: center;
 
@@ -108,7 +107,7 @@ margin-bottom:5px;
     background-color: black;
     height: 100%;
     width: 15%;
-    font-size: 2vw;
+
   }
   
   
@@ -131,11 +130,15 @@ margin-bottom:5px;
     background-color: black;
     height: 100%;
     width: 15%;
-    font-size: 2vw;
+
     color:pink;
   }
 
   .column:hover{
-      
+      cursor: crosshair;
       box-shadow: 10px 10px 30px  white;
+  }
+
+  .color:hover, .more:hover {
+cursor: pointer;
   }
